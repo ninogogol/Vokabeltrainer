@@ -80,12 +80,12 @@ table, th, td {
 }
 
 .td-buttons button {
+    width: 120px;
     padding: 2px;
     font-weight: 400;
     text-transform: uppercase;
     border-radius: 5px;
     border: none;
-    max-width: 150px;
 }
 
 .td-buttons button:nth-child(1) {
@@ -95,6 +95,21 @@ table, th, td {
 .td-buttons button:nth-child(2) {
     background-color: #db6e6ead;
     color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    .td-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    thead th:nth-child(1) {
+        width: 35%;
+    }
+    thead th:nth-child(2) {
+        width: 35%;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -127,25 +142,7 @@ table, th, td {
     table, th, td {
         border: 1px solid #00474B;
     }
-    thead th:nth-child(1) {
-        width: 35%;
-    }
-    thead th:nth-child(2) {
-        width: 35%;
-    }
-    .td-buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
     .td-buttons button {
-        width: 120px;
-        padding: 2px;
-        font-weight: 400;
-        text-transform: uppercase;
-        border-radius: 5px;
-        border: none;
         transition: 0.3s;
         cursor: pointer;
     }
