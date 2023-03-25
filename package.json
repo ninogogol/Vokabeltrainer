@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app"
+    "test": "nodemon app",
+    "start": "node app"
   },
   "author": "Nino Gogoladze",
   "license": "ISC",
