@@ -15,7 +15,7 @@ Vokabeltrainer is a simple vocabulary training application that helps users lear
 ##### Installation
 
 1. Clone the repository:
-```git clone https://github.com/yourusername/vokabeltrainer.git```
+```git clone https://github.com/ninogogol/vokabeltrainer.git```
 
 2. Install dependencies:
 ```npm i express```
